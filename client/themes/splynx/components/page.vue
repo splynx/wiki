@@ -73,7 +73,7 @@
                 span.text-none {{$t(`common:page.editExternal`, { name: editShortcutsObj.editMenuExternalName })}}
       v-divider
       v-container.pl-5.pt-4(fluid, grid-list-xl)
-        v-layout(row)
+        v-layout(row,content-wrap)
           v-flex.page-col-sd(lg3, xl2, v-if='$vuetify.breakpoint.lgAndUp')
             v-card.mb-5(v-if='tocDecoded.length')
               .overline.pa-5.pb-0(:class='$vuetify.theme.dark ? `blue--text text--lighten-2` : `primary--text`') {{$t('common:page.toc')}}
@@ -755,4 +755,7 @@ export default {
   }
 }
 
+.content-wrap {
+  flex-direction: row-reverse
+}
 </style>

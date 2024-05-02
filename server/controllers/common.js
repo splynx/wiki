@@ -307,11 +307,7 @@ router.get(['/i', '/i/:id'], async (req, res, next) => {
     return res.render('unauthorized', { action: 'view' })
   }
 
-  if (WIKI.config.lang.namespacing) {
-    return res.redirect(`/${page.localeCode}/${page.path}`)
-  } else {
     return res.redirect(`/${page.path}`)
-  }
 })
 
 /**
@@ -469,7 +465,7 @@ router.get('/*', async (req, res, next) => {
 
           let pathForBreadcrumbsPage = '';
           if (index === '0') {
-            pathForBreadcrumbsPage = `/${pageArgs.locale}/${item}`;
+            pathForBreadcrumbsPage = `/${item}`;
           } else {
             if (page.breadcrumbsItems[index - 1]) {
               pathForBreadcrumbsPage = `${page.breadcrumbsItems[index - 1].path}/${item}`;
