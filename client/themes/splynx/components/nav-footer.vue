@@ -28,7 +28,7 @@
               li#menu-item-100.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100
                 a(href='https://forum.splynx.com/') Forum
               li#menu-item-4184.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-4184
-                a(href='https://splynx.com/release-notes-v-4-2/') Release notes
+                a(href='https://splynx.com/product-updates/') Product updates
           div
             h6 Company
             ul#menu-company.footer-menu
