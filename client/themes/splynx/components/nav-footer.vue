@@ -2,8 +2,8 @@
   .footer
     .container.container--1120.pre-footer-container
       div
-        a.footer-logo(href='/')
-          img(src='https://splynx.com/wp-content/uploads/2022/02/Logo.svg' alt='')
+        a.footer-logo(href='https://splynx.com/' target='_blank')
+          img(src='https://splynx.com/wp-content/uploads/2022/02/Logo.svg' alt='' target='_blank' class='no-modal')
         p.footer-slogan ISP Billing and Network Management System
       .flex-grow-1
         .d-flex.menus-container.justify-content-space-between
@@ -11,51 +11,51 @@
             h6 Product
             ul#menu-product.footer-menu
               li#menu-item-95.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.current-menu-item.page_item.page-item-14.current_page_item.menu-item-95
-                a(href='https://splynx.com/' aria-current='page') Home
+                a(href='https://splynx.com/' aria-current='page' target='_blank') Home
               li#menu-item-94.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-94
-                a(href='https://splynx.com/pricing/') Pricing
+                a(href='https://splynx.com/pricing/' target='_blank') Pricing
               li#menu-item-2199.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-2199
-                a(href='https://demo.splynx.com') Live demo
+                a(href='https://demo.splynx.com' target='_blank') Live demo
           div
             h6 Resources
             ul#menu-resourses.footer-menu
               li#menu-item-96.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-96
-                a(href='https://wiki.splynx.com/') Knowledge base
+                a(href='https://wiki.splynx.com/' target='_blank') Knowledge base
               li#menu-item-97.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-97
-                a(href='https://deploy.splynx.com/') Video tutorials
+                a(href='https://deploy.splynx.com/' target='_blank') Video tutorials
               li#menu-item-1826.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-1826
-                a(href='https://splynx.com/blog/') Blog
+                a(href='https://splynx.com/blog/' target='_blank') Blog
               li#menu-item-100.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100
-                a(href='https://forum.splynx.com/') Forum
+                a(href='https://forum.splynx.com/' target='_blank') Forum
               li#menu-item-4184.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-4184
-                a(href='https://splynx.com/product-updates/') Product updates
+                a(href='https://splynx.com/product-updates/' target='_blank') Product updates
           div
             h6 Company
             ul#menu-company.footer-menu
               li#menu-item-101.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-101
-                a(href='https://splynx.com/who-we-are/') Who we are
+                a(href='https://splynx.com/who-we-are/' target='_blank') Who we are
               li#menu-item-102.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-102
-                a(href='https://splynx.com/contacts/') Contact us
+                a(href='https://splynx.com/contacts/' target='_blank') Contact us
               li#menu-item-2197.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-2197
-                a(href='https://splynx.com/news/') News
+                a(href='https://splynx.com/news/' target='_blank') News
           div
             h6 Connect with us
             ul.social
               li
                 a(href='https://www.facebook.com/IspFramework' target='_blank')
-                  img(src='https://splynx.com/wp-content/themes/Splynx/img/facebook.svg' alt='Facebook')
+                  img(src='https://splynx.com/wp-content/themes/Splynx/img/facebook.svg' alt='Facebook' class='no-modal')
+              li
+                a(href='https://twitter.com/IspFramework' target='_blank')
+                  img(src='https://splynx.com/wp-content/themes/Splynx/img/twitter.svg' alt='Twitter' class='no-modal')
               li
                 a(href='https://www.instagram.com/splynxframework' target='_blank')
-                  img(src='https://splynx.com/wp-content/themes/Splynx/img/twitter.svg' alt='Twitter')
-              li
-                a(href='https://www.instagram.com/splynxframework' target='_blank')
-                  img(src='https://splynx.com/wp-content/themes/Splynx/img/instagram.svg' alt='Instagram')
+                  img(src='https://splynx.com/wp-content/themes/Splynx/img/instagram.svg' alt='Instagram' class='no-modal')
               li
                 a(href='https://www.youtube.com/channel/UCQB0vydoC1LOqdheTPkxWpA' target='_blank')
-                  img(src='https://splynx.com/wp-content/themes/Splynx/img/youtube.svg' alt='Youtube')
+                  img(src='https://splynx.com/wp-content/themes/Splynx/img/youtube.svg' alt='Youtube' class='no-modal')
               li
                 a(href='https://www.linkedin.com/company/splynx-isp-framework/' target='_blank')
-                  img(src='https://splynx.com/wp-content/themes/Splynx/img/linkedin.svg' alt='Linkedin')
+                  img(src='https://splynx.com/wp-content/themes/Splynx/img/linkedin.svg' alt='Linkedin' class='no-modal')
             .d-flex.mt-16._xs--mt-28.justify-content-start._xs--justify-content-center.hover_dropdown
               .title.d-flex.column-gap-16
               ul.list.up
@@ -63,8 +63,8 @@
       .terms
         .copyright &copy; Splynx ISP Framework by Splynx s.r.o
         .right-links
-          a(href='https://splynx.com/cookie-policy/') Cookies Policy
-          a(href='https://splynx.com/privacy-policy/') Privacy Policy
+          a(href='https://splynx.com/cookie-policy/' target='_blank') Cookies Policy
+          a(href='https://splynx.com/privacy-policy/' target='_blank') Privacy Policy
 
 </template>
 
